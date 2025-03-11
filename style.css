@@ -1,0 +1,92 @@
+html {
+    font-size: 62.5%;
+} 
+
+* {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-family: monospace;
+} 
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    padding: 0;
+    background-color: #394764;
+}
+
+.main-body {
+    background-color: #242c43;
+    border-radius: 10px;
+    height: 350px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+    width: 350px;
+}
+
+.main-container button {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-container button:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.main-screan {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 330px;
+    height: 50px;
+    background-color: #182033;
+}
+
+.main-display {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+input {
+    padding: 20px;
+    font-size: 35px;
+    text-align: end;
+    color: white;
+    width: 330px;
+    height: 50px;
+    background-color: #182033;
+    outline: none;
+}
+
+.main-container button:nth-child(4) {
+    background-color: #182033;
+    color: white;
+}
+
+.main-container button:nth-child(4):hover {
+    background-color: #323c56;
+}
+
+.main-container button:nth-child(12) {
+    grid-row: span 2;
+    background-color: #d13f30;
+}
+
+.main-container button:nth-child(12):hover {
+    background-color: #c62d1c;
+}
